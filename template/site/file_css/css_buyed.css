@@ -1,0 +1,72 @@
+.content_buyed{
+	background: white;
+}
+.body_buyed{
+	display: flex;
+}
+.content_buyed .title_product{
+	border-bottom: 1px solid #ececec;
+}
+.body_buyed .buyed{
+    display: flex;
+    margin-right: 40px;
+}
+.body_buyed .buyed .buyed_left_1{
+	width: 400px;
+}
+.body_buyed .buyed .buyed_left_2{
+	width: 270px;
+}
+.body_buyed .buyed .buyed_left_2 .price_buyed{
+	color: #e10c00;
+	font-size: 24px;
+	font-weight: bold;
+}
+.body_buyed .buyed .buyed_left_2 .old_price{
+	text-decoration: line-through;
+	font-size: 20px;
+}
+.body_buyed .buyed .buyed_left_2 .content_infor{
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin-top: 10px;
+}
+.body_buyed .buyed .buyed_left_2 .content_infor .full_box{
+	border-bottom: 1px solid #ddd;
+}
+.body_buyed .buyed .buyed_left_2 .content_infor .guarantee{
+	border-bottom: 1px solid #ddd;
+}
+.body_buyed .buyed .buyed_left_2 .link_buy{
+	text-decoration: none;
+}
+.body_buyed .buyed .buyed_left_2 .click_buy_1{
+	background: -webkit-linear-gradient(top,#f59000,#fd6e1d);
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	padding: 3px;
+	text-decoration: none;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.body_buyed .buyed .buyed_left_2 .click_buy_1 .text_buy_1{
+	font-weight: bold;
+	font-size: 16px;
+
+}
+.body_buyed .buyed .buyed_left_2 .click_buy_2{
+	background:#288ad6;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	padding: 3px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+}
+.body_buyed .infor_phone .detail_phone{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+}
